@@ -1,0 +1,19 @@
+.flower-component {
+  flex-basis: 22%;
+  border: 1px solid;
+  background-color: rgb(10, 10, 10, 0.6);
+}
+.flower-component-info {
+  text-align: center;
+  margin: 8px;
+  font-size: 25px;
+}
+.flower-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.flower-size {
+  width: 250px;
+}

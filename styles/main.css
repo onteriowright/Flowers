@@ -1,0 +1,10 @@
+@import "./flower.css";
+body {
+  background-image: url("../assets/home-store-1480.webp");
+  background-repeat: none;
+  background-size: cover;
+  color: white;
+}
+.body {
+  background-color: rgb(8, 8, 8, 0.4);
+}

@@ -1,3 +1,56 @@
 {
-  "flowers": []
+  "flowerRetailers": [],
+  "flowerDistributors": [
+    {
+      "id": 1,
+      "name": "Onterio's Flower Shop"
+    },
+    {
+      "id": 2,
+      "name": "Molly's Flower Shop"
+    },
+    {
+      "id": 3,
+      "name": "Ryan's Flower Shop"
+    },
+    {
+      "id": 4,
+      "name": "Mo's Flower Shop"
+    },
+    {
+      "id": 5,
+      "name": "Mary's Flower Shop"
+    }
+  ],
+  "nurseries": [],
+  "flowers": [
+    {
+      "id": 1,
+      "color": "Red",
+      "name": "Rose",
+      "img": "./assets/rose.jpg",
+      "distributerId": 1
+    },
+    {
+      "id": 2,
+      "color": "Moroon",
+      "name": "Tulip",
+      "img": "./assets/tulip.jpg",
+      "distributerId": 2
+    },
+    {
+      "id": 3,
+      "color": "White",
+      "name": "Lily",
+      "img": "./assets/lily.jpg",
+      "distributerId": 3
+    },
+    {
+      "id": 4,
+      "color": "Purple",
+      "name": "Orchid",
+      "img": "./assets/orchid.jpg",
+      "distributerId": 4
+    }
+  ]
 }
