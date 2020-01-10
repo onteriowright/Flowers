@@ -1,25 +1,76 @@
 {
-  "flowerRetailers": [],
+  "flowerRetailers": [
+    {
+      "id": 1,
+      "name": "Onterio's Flower Shop",
+      "city": "Nashville",
+      "state": "TN",
+      "address": "110th street"
+    },
+    {
+      "id": 1,
+      "name": "Molly's Flower Shop",
+      "city": "Houston",
+      "state": "TX",
+      "address": "8088 fannin street"
+    },
+    {
+      "id": 1,
+      "name": "Ryan's Flower Shop",
+      "city": "Miami",
+      "state": "FL",
+      "address": "112 vice city lane"
+    },
+    {
+      "id": 1,
+      "name": "Akemo's Flower Shop",
+      "city": "Memphis",
+      "state": "TN",
+      "address": "901 shelby drive"
+    },
+    {
+      "id": 1,
+      "name": "Danyeal's Flower Shop",
+      "city": "Los Angeles",
+      "state": "CA",
+      "address": "102 crenshaw blvd"
+    }
+  ],
   "flowerDistributors": [
     {
       "id": 1,
-      "name": "Onterio's Flower Shop"
+      "name": "Onterio's Distribution",
+      "city": "Knoxville",
+      "state": "TN",
+      "address": "102 harry lane"
     },
     {
       "id": 2,
-      "name": "Molly's Flower Shop"
+      "name": "Molly's Distribution",
+      "city": "Chicago",
+      "state": "IL",
+      "address": "154th street"
     },
     {
       "id": 3,
-      "name": "Ryan's Flower Shop"
+      "name": "Ryan's Distribution",
+      "city": "Cleveland",
+      "state": "OH",
+      "address": "3821 rockford lane"
     },
     {
       "id": 4,
-      "name": "Mo's Flower Shop"
+      "name": "Mo's Distribution",
+      "city": "Las Vega",
+      "state": "NV",
+      "address": "285 chapel hill lane"
     },
     {
       "id": 5,
-      "name": "Mary's Flower Shop"
+      "name": "Mary's Distribution",
+      "city": "Dallas",
+      "state": "TX",
+      "address": "8525 victory lane"
     }
   ],
   "nurseries": [],

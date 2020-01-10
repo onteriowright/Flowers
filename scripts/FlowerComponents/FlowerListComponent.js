@@ -1,8 +1,12 @@
 import { UseFlowers } from "./FlowerDataProvider.js";
 import { FlowerComponent } from "./FlowerComponent.js";
+import { UseFlowerRetailers } from "../FlowerRetailerComponents/FlowerRetailerDataProvider.js";
 
 export const FlowerListComponent = () => {
   const targetElement = document.querySelector("#container__flowers");
+
+  const useFlowerRetailers = UseFlowerRetailers();
+  console.log(useFlowerRetailers);
 
   const renderData = flowerCollection => {
     targetElement.innerHTML = `
