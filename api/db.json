@@ -1,5 +1,5 @@
 {
-  "flowerRetailers": [
+  "retailers": [
     {
       "id": 1,
       "name": "Onterio's Flower Shop",
@@ -8,100 +8,148 @@
       "address": "110th street"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Molly's Flower Shop",
       "city": "Houston",
       "state": "TX",
       "address": "8088 fannin street"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Ryan's Flower Shop",
       "city": "Miami",
       "state": "FL",
       "address": "112 vice city lane"
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "Akemo's Flower Shop",
       "city": "Memphis",
       "state": "TN",
       "address": "901 shelby drive"
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "Danyeal's Flower Shop",
       "city": "Los Angeles",
       "state": "CA",
       "address": "102 crenshaw blvd"
     }
   ],
-  "flowerDistributors": [
+  "distributors": [
     {
       "id": 1,
-      "name": "Onterio's Distribution",
+      "name": "Onterio's Distribution Center",
       "city": "Knoxville",
       "state": "TN",
-      "address": "102 harry lane"
+      "address": "102 harry lane",
+      "flowerId": 1
     },
     {
       "id": 2,
-      "name": "Molly's Distribution",
+      "name": "Molly's Distribution Center",
       "city": "Chicago",
       "state": "IL",
-      "address": "154th street"
+      "address": "154th street",
+      "flowerId": 2
     },
     {
       "id": 3,
-      "name": "Ryan's Distribution",
+      "name": "Ryan's Distribution Center",
       "city": "Cleveland",
       "state": "OH",
-      "address": "3821 rockford lane"
+      "address": "3821 rockford lane",
+      "flowerId": 3
     },
     {
       "id": 4,
-      "name": "Mo's Distribution",
+      "name": "Mo's Distribution Center",
       "city": "Las Vega",
       "state": "NV",
-      "address": "285 chapel hill lane"
+      "address": "285 chapel hill lane",
+      "flowerId": 4
     },
     {
       "id": 5,
-      "name": "Mary's Distribution",
+      "name": "Mary's Distribution Center",
       "city": "Dallas",
       "state": "TX",
-      "address": "8525 victory lane"
+      "address": "8525 victory lane",
+      "flowerId": 5
     }
   ],
-  "nurseries": [],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Benny's Nursery",
+      "city": "Austin",
+      "state": "TX",
+      "address": "525 cooper lane"
+    },
+    {
+      "id": 2,
+      "name": "Toni's Nursery",
+      "city": "New Orleans",
+      "state": "LA",
+      "address": "25 madi gras street"
+    },
+    {
+      "id": 3,
+      "name": "Charlottes's Nursery",
+      "city": "Cleveland",
+      "state": "OH",
+      "address": "5224 spencer lane"
+    },
+    {
+      "id": 4,
+      "name": "Maria's Nursery",
+      "city": "Atlanta",
+      "state": "GA",
+      "address": "700 peach street"
+    },
+    {
+      "id": 5,
+      "name": "Lisa's Nursery",
+      "city": "Miami",
+      "state": "FL",
+      "address": "200 ocean drive"
+    }
+  ],
   "flowers": [
     {
       "id": 1,
       "color": "Red",
       "name": "Rose",
       "img": "./assets/rose.jpg",
-      "distributerId": 1
+      "retailerId": 1
     },
     {
       "id": 2,
       "color": "Moroon",
       "name": "Tulip",
       "img": "./assets/tulip.jpg",
-      "distributerId": 2
+      "retailerId": 5
     },
     {
       "id": 3,
       "color": "White",
       "name": "Lily",
       "img": "./assets/lily.jpg",
-      "distributerId": 3
+      "retailerId": 2
     },
     {
       "id": 4,
       "color": "Purple",
       "name": "Orchid",
       "img": "./assets/orchid.jpg",
-      "distributerId": 4
+      "retailerId": 3
+    },
+    {
+      "id": 5,
+      "color": "Green",
+      "name": "Bushes",
+      "img": "./assets/daisy.jpg",
+      "retailerId": 2
     }
   ]
 }

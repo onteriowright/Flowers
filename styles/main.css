@@ -5,6 +5,11 @@ body {
   background-size: cover;
   color: white;
 }
-.body {
-  background-color: rgb(8, 8, 8, 0.4);
+#container {
+  background-color: rgb(5, 5, 5, 0.4);
+}
+.title-alignment {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 100px;
 }
